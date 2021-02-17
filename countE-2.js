@@ -1,5 +1,4 @@
-
-let text = `Je suis le ténébreux, - le veuf, - l'inconsolé,
+let eCount = `Je suis le ténébreux, - le veuf, - l'inconsolé,
 Le prince d'Aquitaine à la tour abolie :
 Ma seule étoile est morte, - et mon luth constellé
 Porte le soleil noir de la Mélancolie.
@@ -14,11 +13,11 @@ Et j'ai deux fois vainqueur traversé l'Achéron ;
 Modulant tour à tour sur la lyre d'Orphée
 Les soupirs de la sainte et les cris de la fée.`
 
-let countE = 0
 
-for(let i = 0; i < text.length; i++) {
-  if(NbletterE[i] === 'e')
-    countE++
+for (let i = 0; i < eCount.length; i++) {
+  if (eCount[i] === 'e') {
+    eCount[i]++
+    console.log(eCount[i].length)
+
+  }
 }
-
-console.log(`programme compte ${countE} 'e' dans le texte de l'exercice`)
