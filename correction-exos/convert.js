@@ -12,7 +12,7 @@ console.log(`${nb} est égal à ${nb.toString(8)} en octal`)
 console.log(`${nb} est égal à ${nb.toString(16)} en hexadecimal`)
 console.log('\n')
 
-// hexadecimal 1 à 9 puis a à i
+// hexadecimal 1 à 9 puis a à f
 
 nb = 16
 console.log(`${nb} est égal à ${nb.toString(2)} en binaire`)
